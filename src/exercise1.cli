@@ -1,0 +1,4 @@
+(ns exercise1)
+
+(defn ten-minus-by-two [num]
+    (- 10 (* 2 num)))
