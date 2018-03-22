@@ -2,9 +2,9 @@
 
 (defn fibonacci [num]
   
-    (if (= 1 num)
-      1)
-    (if (= 0 num)
-      0)
-    (+ fibonacci(- 1 num) fibonacci(- 2 num)))
+    (if (<= num 1)
+      num
+      (+ (fibonacci (- num 1)) (fibonacci (- num 2))
+    )   
+)
     
