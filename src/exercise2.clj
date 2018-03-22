@@ -4,4 +4,4 @@
   (filter less-six lista))
   
  (defn less-six [x]
-    (< 6 x))
+    (< 5 x))
